@@ -102,7 +102,7 @@
       missingFields.push('Usuario');
       valid = false;
     } else if (!usernameLengthRule(username.value)) {
-      invalidFields.push('Usuario debe tener al menos 5 caracteres');
+      invalidFields.push('El usuario debe tener al menos 5 caracteres');
       valid = false;
     }
   
@@ -110,7 +110,7 @@
       missingFields.push('Identificación');
       valid = false;
     } else if (!identificationRule(identification.value)) {
-      invalidFields.push('Identificación debe ser numérica y tener al menos 10 caracteres');
+      invalidFields.push('La identificación debe ser numérica y tener al menos 10 caracteres');
       valid = false;
     }
   
@@ -118,7 +118,7 @@
       missingFields.push('Contraseña');
       valid = false;
     } else if (!passwordLengthRule(password.value)) {
-      invalidFields.push('Contraseña debe tener al menos 7 caracteres');
+      invalidFields.push('La contraseña debe tener al menos 7 caracteres');
       valid = false;
     }
   
@@ -126,7 +126,7 @@
       missingFields.push('Correo electrónico');
       valid = false;
     } else if (!emailRule(email.value)) {
-      invalidFields.push('Correo electrónico no es válido');
+      invalidFields.push('El Correo electrónico no es válido');
       valid = false;
     }
   
